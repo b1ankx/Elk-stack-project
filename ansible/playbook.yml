@@ -1,0 +1,7 @@
+- name: Настройка ELK и Vault
+  hosts: all
+  become: true
+  roles:
+    - elk
+    - vault
+
